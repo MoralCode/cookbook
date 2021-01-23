@@ -1,10 +1,17 @@
 ## [Unreleased]
 
+### Added
+- Create service class for downloading and extracting JSON
+  [#553](https://github.com/nextcloud/cookbook/pull/553) @christianlupus
+
 ### Fixed
 - Mark app as compatible with Nextcloud 22
   [#778](https://github.com/nextcloud/cookbook/pull/778) @christianlupus
 - Usage of PHAR-based PHPUnit to avoid dependency on nikic/php-parser and dependency conflicts
   [#780](https://github.com/nextcloud/cookbook/pull/780) @christianlupus
+
+### Deprecated
+- Method RecipeService::parseRecipeHtml()
 
 ### Removed
 - Removed app info XML file to avoid confusion
@@ -169,6 +176,7 @@
   [#573](https://github.com/nextcloud/cookbook/pull/573/) @seyfeb
 - Added button to allow adding empty ingredient, instruction, and tool entries above existing ones in editor
   [#575](https://github.com/nextcloud/cookbook/pull/575/) @seyfeb
+
 
 ### Changed
 - Using computed property in recipe view
